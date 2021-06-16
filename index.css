@@ -5,14 +5,14 @@
     padding: 18p 20px;
   }
   
-  /* Style the header links */
+  /* Style the header left 3-links */
   .header a {
     float: left;
     color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 15px;    
     line-height: 25px;
     border-radius: 4px;
   }
@@ -26,7 +26,7 @@
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: springgreen;
+    background-color: gray;
     color: black;
   }
   
@@ -41,7 +41,7 @@
     float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  /* Add media queries for responsiveness */
   @media screen and (max-width: 50px) {
     .header a {
       float: none;
