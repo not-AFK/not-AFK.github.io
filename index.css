@@ -32,8 +32,8 @@
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: springgreen;
-    color: black;
+    /*background-color: springgreen;*/
+    color: springgreen;
   }
   
   /* Float the link section to the right */
